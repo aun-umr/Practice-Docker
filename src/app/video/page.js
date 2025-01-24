@@ -16,7 +16,7 @@ export default function Video() {
 
       {/* Back button */}
       <a 
-        href="/game" 
+        href="/" 
         className="absolute top-4 left-4 z-10 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
       >
         <ArrowLeft className="w-6 h-6 text-white" />
