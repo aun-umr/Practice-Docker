@@ -7,33 +7,27 @@ import { useRouter } from 'next/navigation';
 const cards = [
   {
     id: 1,
-    image: "/images/birthday1.png",
+    image: "/images/birthday1.jpg",
     message: "Every moment feels magical with you ✨",
     borderColor: "border-pink-400"
   },
   {
     id: 2,
-    image: "/images/birthday2.png",
+    image: "/images/birthday2.jpg",
     message: "You make my heart smile with your presence 💫",
     borderColor: "border-purple-400"
   },
   {
     id: 3,
-    image: "/images/birthday3.png",
+    image: "/images/birthday3.jpg",
     message: "Happy Birthday to my special one 🌟",
     borderColor: "border-red-400"
   },
   {
     id: 4,
-    image: "/images/birthday4.png",
+    image: "/images/birthday4.jpg",
     message: "You light up my world everyday ✨",
     borderColor: "border-rose-400"
-  },
-  {
-    id: 5,
-    image: "/images/birthday5.png",
-    message: "My heart beats only for you 💖",
-    borderColor: "border-pink-400"
   }
 ];
 
@@ -81,6 +75,7 @@ export default function Home() {
       <div className="w-full text-center pt-4 md:pt-8 z-20 relative">
         <h1 className="text-3xl md:text-5xl font-bold text-white heading-animation mb-2 md:mb-4 px-4">
           ❤️ Happy Birthday Mish ❤️
+          May Allah keep you happy and healthy always 🎂🎉🎈
         </h1>
         <div className="flex justify-center gap-2 md:gap-3 text-2xl md:text-3xl hearts-animation">
           💝 💖 💗 💝 💖
